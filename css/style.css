@@ -51,6 +51,10 @@ img{
     padding: 0 30px;
 }
 
+.navbar .top{
+    background: transparent;
+}
+
 .navbar a {
     color: #fff;
     padding: 10px 20px;
@@ -98,6 +102,10 @@ img{
     font-size: 23px;
     max-width: 600px;
     margin: 20px 0 30px;
+}
+
+.hero.blog {
+    height: 30vh;
 }
 
 /* icons */
@@ -200,6 +208,31 @@ img{
     border: 1px solid #fff;
 }
 
+/* Post */
+.post{
+    padding: 50px 30px;
+
+}
+
+.post h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: #ccc solid 1px;
+}
+
+.post .meta{
+    margin-bottom: 30px;
+
+}
+
+.post img{
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+}
+
 /* Footer */
 .footer{
     display: flex;
@@ -266,7 +299,7 @@ img{
     justify-content: center;
     align-items: center;
     /* height: 200px; */
-    
+
 
     }
 }
